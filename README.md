@@ -1,7 +1,7 @@
 # Greek Voice Assistant Script Documentation
 
 ## Overview
-This Python script creates a desktop voice assistant application with a graphical interface using PyQt5. The assistant listens to Greek speech input, processes it using OpenAI's GPT-4 model, and responds in Greek using text-to-speech.
+This Python script runs a desktop voice assistant application with a graphical interface using PyQt5. The assistant listens to Greek speech input, processes it using OpenAI's GPT-4 model, and responds in Greek using text-to-speech.
 
 ## Features
 - Speech recognition in Greek
@@ -94,3 +94,4 @@ python script_name.py
 - Audio processing happens in a background thread to prevent UI freezing
 - Temporary MP3 files are used for text-to-speech playback
 - Error handling for speech recognition and API calls is implemented
+
